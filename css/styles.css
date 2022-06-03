@@ -1,0 +1,235 @@
+body
+{
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71; 
+    letter-spacing: 0.03em;
+    color: var(--secondary-light-txt);
+
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    font-family: inherit;
+}
+
+/*Хедер*/
+
+.logo-blue
+{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--accent-txt);
+}
+.logo-dark
+{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--logo-light-txt);
+}
+.nav-link
+{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-light-txt);
+    
+}
+.nav-link:focus,
+.nav-link:hover,
+.head-mail:focus,
+.head-mail:hover,
+.head-phone:focus,
+.head-phone:hover,
+.portfolio-button-item:hover,
+.portfolio-button-item:focus{
+    color: var(--accent-txt);
+}
+
+.head-mail,
+.head-phone{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondary-light-txt);
+    letter-spacing: 0.02em; 
+
+}
+
+/*Главный контент*/
+/*Секция шапка*/
+.hat{
+    background-color: var(--primary-dark-bg);
+}
+.hat-phrase{
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-dark-txt);
+
+/*border: 1px solid #000000;*/
+
+}
+
+.hat-button{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--primary-dark-txt);
+background-color: var(--accent-txt);
+}
+
+/*Секция особенности*/
+.speciality
+{
+    background-color:var(--primary-light-bg);
+}
+
+.speciality-list-character{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color:var(--primary-light-txt);
+}
+
+.speciality-list-phrase{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+color:var(--secondary-light-txt);
+}
+
+/*Проэкты*/
+.projects-title,
+.crew-title{
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: var(--primary-light-txt);
+}
+
+/*Команда*/
+.crew-member{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+color:var(--primary-light-txt);
+}
+.crew-occupation{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+}
+
+/*Портфолио*/
+.portfolio-button-item{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+color:var(--primary-light-txt);
+font-family: inherit;
+}
+
+
+
+/*Футер*/
+.footer{
+    background-color: var(--primary-dark-bg);
+}
+.logo-white{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color:var(--logo-dark-txt);
+}
+.footer-adress{
+font-size: 14px;
+line-height: 1.71;
+color:var(--primary-dark-txt);
+font-style: normal;
+}
+
+.footer-mail,
+.footer-phone{
+font-size: 14px;
+line-height: 1.71;
+color:var(--secondary-footer-txt);
+font-style: normal;
+}
+
+.portfolio-item-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color:var(--primary-light-txt)
+}
+
+.portfolio-item-phrase{
+font-size: 16px;
+line-height: 1.87;
+}
+
+
+:root 
+{
+    /*Шрифты*/
+    --main-font: "Roboto",sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    /*Светлая тема текста*/
+    --primary-light-txt: #212121;
+    --secondary-light-txt: #757575;
+    --accent-txt: #2196F3;
+    --logo-light-txt: #000000;
+    --logo-dark-txt: #ffffff;
+    /*Темная тема текста*/
+    --primary-dark-txt: #ffffff;
+    --secondary-dark-txt:#C4C4C4;
+    /*Светлая тема фона*/
+    --primary-light-bg: #E5E5E5;
+    --secondary-light-bg: #F5F4FA;
+    /*Темная тема фона*/
+    --primary-dark-bg: #2F303A;
+    --secondary-footer-txt: rgba(255, 255, 255, 0.6);
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
