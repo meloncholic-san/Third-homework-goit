@@ -20,10 +20,10 @@
     <header class="header">
         <div class="container header-container">
         <a href="./index.html" class="header-logo"> <span class="logo-blue">Web</span>  <span class="logo-dark">studio </span> </a> <!--span для изменения стиля лого фирмы-->
-        <nav>
+        <nav class="header-nav">
             <ul class="header-link-wrapper">
-                <li class="header-link-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
                 <li class="header-link-item"><a class="nav-link" href="./index.html">Студия</a></li>
+                <li class="header-link-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
                 <li class="header-link-item"><a class="nav-link" href="#contacts">Контакты</a></li>
             </ul>
         </nav> 
@@ -52,7 +52,6 @@
         <!--Особенности-->
         <section class="speciality">
             <div class="container">
-                <div class="speciality-wrapper">
                 <h2 class="visually-hidden"> Особенности </h2>
                 <ul class="speciality-list">
                     <li class="speciality-list-item">
@@ -72,52 +71,54 @@
                         <p class="speciality-list-phrase">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
-                </div>
             </div>
         </section>
         <!--Чем мы занимаемся-->
         <section class="projects" >
             <div class="container">
-                <div class="projects-wrapper">
                 <h2 class="projects-title">Чем мы занимаемся</h2>
                 <ul class="projects-list">
                     <li class="projects-item"><img src="./images/about-us/work1.jpg" alt="Первый образец" width="370" height="295"></li>
                     <li class="projects-item"><img src="./images/about-us/work2.jpg" alt="Второй образец" width="370" height="295"></li>
                     <li class="projects-item"><img src="./images/about-us/work3.jpg" alt="Третий образец" width="370" height="295"></li>
                 </ul>
-                </div>    
             </div>
         </section>
 
         <!--Наша команда-->
         <section class="crew">
             <div class="container">
-                <div class="crew-wrapper">
                 <h2 class="crew-title">Наша команда</h2>
-
                 <ul class="crew-list">
                     <li class="crew-list-item">
                         <img src="./images/our-team/Igor.jpg" alt="Фото Игоря" width="270" height="260">
-                        <h3 class="crew-member">Игорь Демьяненко</h3>
-                        <p class="crew-occupation" lang="en">Product Designer</p>
+                        <div class="crew-member-wrapper">
+                            <h3 class="crew-member">Игорь Демьяненко</h3>
+                            <p class="crew-occupation" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="crew-list-item">
                         <img src="./images/our-team/Olga.jpg" alt="Фото Ольги" width="270" height="260">
-                        <h3 class="crew-member">Ольга Репина</h3>
-                        <p class="crew-occupation" lang="en">Frontend Developer</p>
+                        <div class="crew-member-wrapper">
+                            <h3 class="crew-member">Ольга Репина</h3>
+                            <p class="crew-occupation" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="crew-list-item">
                         <img src="./images/our-team/Nikolai.jpg" alt="Фото Николая" width="270" height="260">
-                        <h3 class="crew-member">Николай Тарасов</h3>
-                        <p class="crew-occupation" lang="en">Marketing</p>
+                        <div class="crew-member-wrapper">
+                            <h3 class="crew-member">Николай Тарасов</h3>
+                            <p class="crew-occupation" lang="en">Marketing</p>
+                        </div>
                     </li>
                     <li class="crew-list-item">
                         <img src="./images/our-team/Mikhail.jpg" alt="Фото Михаила" width="270" height="260">
-                        <h3 class="crew-member">Михаил Ермаков</h3>
-                        <p class="crew-occupation" lang="en">UI Designer</p>
+                        <div class="crew-member-wrapper">
+                            <h3 class="crew-member">Михаил Ермаков</h3>
+                            <p class="crew-occupation" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
-                </div>
             </div>
 
         </section>

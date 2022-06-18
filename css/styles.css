@@ -38,6 +38,10 @@ ul,ol {
     margin-left: auto;
 }
 /*Хедер*/
+
+.header{
+    border-bottom: solid 1px #ECECEC;
+}
 .logo-blue
 {
 font-family: var(--secondary-font);
@@ -69,10 +73,12 @@ color: var(--logo-light-txt);
     display: flex;
     margin-left: 93px;
     align-items: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
 
+}
+.header-nav{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 .header-link-item{
     margin-right: 50px;
@@ -126,11 +132,10 @@ color: var(--logo-light-txt);
 /*Секция шапка*/
 .hat{
     background-color: var(--primary-dark-bg);
-}
-.hat-wrapper{
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
 .hat-phrase{
 
 font-weight: 900;
@@ -172,11 +177,11 @@ border-radius: 4px;
 /*Секция особенности*/
 .speciality
 {
-    background-color:var(--primary-light-bg);
-}
-.speciality-wrapper{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.speciality-wrapper{
+
 }
 .speciality-list{
     display: flex;
@@ -209,6 +214,7 @@ color:var(--secondary-light-txt);
 
 .projects{
     background-color: var(--primary-light-bg);
+    padding-bottom: 94px;
 }
 .projects-title,
 .crew-title{
@@ -226,9 +232,6 @@ color: var(--primary-light-txt);
     margin-bottom: 50px;
 }
 
-.projects-wrapper{
-    padding-bottom: 94px;
-}
 .projects-list{
     display: flex;
 }
@@ -241,10 +244,11 @@ color: var(--primary-light-txt);
     margin: 0;
 }
 /*Команда*/
-.crew-wrapper{
+.crew{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .crew-title{
     margin-bottom: 50px;
 }
@@ -260,9 +264,11 @@ color: var(--primary-light-txt);
 .crew-list-item:last-child{
     margin: 0;
 }
+.crew-member-wrapper{
+    padding-top: 30px;
+}
 .crew-member{
-    margin-top: 30px;
-    margin-bottom: 10px;
+margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -277,16 +283,14 @@ line-height: 1.19;
 /*Портфолио*/
 
 .portfolio{
-    background-color: var(--primary-light-bg);
-}
-.portfolio-wrapper{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .portfolio-button-list{
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 .portfolio-button-item{
     font-weight: 500;
@@ -312,9 +316,7 @@ line-height: 1.19;
 }
 
 .portfolio-list-wrapper{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 24px;
+ padding: 20px 24px;
 }
 
 .portfolio-item-title{
@@ -335,10 +337,11 @@ line-height: 1.87;
 /*Футер*/
 .footer{
     background-color: var(--primary-dark-bg);
-}
-.footer-wrapper{
     padding-bottom: 60px;
     padding-top: 60px;
+}
+.footer-wrapper{
+
     display: flex;
     flex-direction: column;
 }
