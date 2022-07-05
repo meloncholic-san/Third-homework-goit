@@ -257,15 +257,14 @@ color: var(--primary-light-txt);
 }
 .crew-list-item{
     margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 .crew-list-item:last-child{
     margin: 0;
 }
 .crew-member-wrapper{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .crew-member{
 margin-bottom: 10px;
@@ -301,10 +300,21 @@ line-height: 1.19;
     font-family: inherit;
     padding: 6px 22px;
 }
-
 .portfolio-item {
     margin-right: 8px;
 }
+
+.portfolio-list-item{
+    max-width: 370px;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-image{
+    display: block;
+}
+
+
+
 .portfolio-item:last-child{
     margin: 0;
 }
